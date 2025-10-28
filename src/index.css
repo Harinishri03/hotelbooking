@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* Custom Theme Variables */
+@layer base {
+  :root {
+    --color-primary: #2563eb;   /* Tailwind blue-600 */
+    --color-secondary: #fbbf24; /* Tailwind yellow-400 */
+  }
+
+  * {
+    font-family: 'Outfit', sans-serif;
+  }
+}
+
+.font-playfair {
+  font-family: 'Playfair', serif !important;
+}
